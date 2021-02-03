@@ -1,0 +1,241 @@
+var obj = {
+    num : "9" 
+    }
+  
+   var myLeaveBtn = document.getElementById('leav')
+   myLeaveBtn.style.display = "none"
+  
+  function myCardFunction() {
+   var myRecordInput1 = document.getElementById("myFirstInput").value
+    var  myCardBtn = document.getElementById("myFirstBtn")
+  
+    if(myRecordInput1.value == "" ) {
+      alert("Sorry You Don't Enter Any Data")
+      var leaveBtn = document.getElementById("leav")
+     leaveBtn.style.display = "none"
+  
+  
+    } else {
+    var myClient1 = document.getElementById("myP2") 
+    myClient1.innerHTML = "Client name : " + myRecordInput1
+    myClient1.style.backgroundColor = "white"
+    myClient1.style.borderRadius = "20px"
+  
+    var mySpace1 =  document.getElementById("myP1")
+    mySpace1.innerHTML =  "Not available"
+    mySpace1.style.backgroundColor = "white"
+    mySpace1.style.borderRadius = "5px"
+  
+   
+    var myStartDate1 = document.getElementById("myP3")
+    myStartDate1.innerHTML = new Date()
+    myStartDate1.style.backgroundColor = "white"
+    myStartDate1.style.borderRadius = "20px"
+  
+  
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  
+    myCardBtn.style.display = "none"
+    myRecordInput1.style.display = "none"
+    myLeaveBtn.style.display = "block"
+    }
+    
+  }
+  
+  
+  function leaveFunc() {
+    
+    var myRecordInput1 = document.getElementById("myFirstInput")
+  
+    var myCost = document.getElementById('cost')
+    myCost.innerHTML = "price : " + 5
+    var wel = document.getElementById("wel")
+    wel.innerHTML = "hello : " + myRecordInput1.value
+    var myTime = document.getElementById("timee")
+    myTime.innerHTML = "you stayed here for" + sf
+    
+  }
+    
+    
+  
+  function myCardFunction1() {
+    var myClient2 = document.getElementById("m2") 
+    myClient2.innerHTML = mySecondInput.value
+    myClient2.style.backgroundColor = "white"
+    myClient2.style.borderRadius = "20px"
+    var mySpace2 =  document.getElementById("m1")
+    mySpace2.innerHTML = "Not available"
+    mySpace2.style.backgroundColor = "white"
+    mySpace2.style.borderRadius = "20px"
+    var myStartDate2 = document.getElementById("m3")
+    myStartDate2.innerHTML = new Date()
+    myStartDate2.style.backgroundColor = "white"
+    myStartDate2.style.borderRadius = "20px"
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  
+  }
+  
+  
+  function myCardFunction2() {
+    var myClient3 = document.getElementById("p2") 
+    myClient3.innerHTML = myFirstInput.value
+    myClient3.style.backgroundColor = "white"
+    myClient3.style.borderRadius = "20px"
+    var mySpace3 =  document.getElementById("p1")
+    mySpace3.innerHTML = "Not available"
+    mySpace3.style.backgroundColor = "white"
+    mySpace3.style.borderRadius = "20px"
+    var myStartDate3 = document.getElementById("p3")
+    myStartDate3.innerHTML = new Date()
+    myStartDate3.style.backgroundColor = "white"
+    myStartDate3.style.borderRadius = "20px"
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  function myCardFunction3() {
+    var myClient4 = document.getElementById("q2") 
+    myClient4.innerHTML = myFirstInput.value
+    
+    var mySpace4 =  document.getElementById("q1")
+    mySpace4.innerHTML = "Not available"
+    
+    var myStartDate4 = document.getElementById("q3")
+    myStartDate4.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  function myCardFunction4() {
+    var myClient5 = document.getElementById("r2") 
+    myClient5.innerHTML = myFirstInput.value
+    
+    var mySpace5 =  document.getElementById("r1")
+    mySpace5.innerHTML = "Not available"
+    
+    var myStartDate5 = document.getElementById("r3")
+    myStartDate5.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  function myCardFunction5() {
+    var myClient6 = document.getElementById("s2") 
+    myClient6.innerHTML = myFirstInput.value
+    
+    var mySpace6 =  document.getElementById("s1")
+    mySpace6.innerHTML = "Not available"
+    
+    var myStartDate6 = document.getElementById("s3")
+    myStartDate6.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  function myCardFunction6() {
+    var myClient7 = document.getElementById("t2") 
+    myClient7.innerHTML = myFirstInput.value
+    
+    var mySpace7 =  document.getElementById("t1")
+    mySpace7.innerHTML = "Not available"
+    
+    var myStartDate7 = document.getElementById("t3")
+    myStartDate7.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  function myCardFunction7() {
+    var myClient8 = document.getElementById("u2") 
+    myClient8.innerHTML = myFirstInput.value
+    
+    var mySpace8 =  document.getElementById("u1")
+    mySpace8.innerHTML = "Not available"
+    
+    var myStartDate8 = document.getElementById("u3")
+    myStartDate8.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  function myCardFunction8() {
+    var myClient9 = document.getElementById("v2") 
+    myClient9.innerHTML = myFirstInput.value
+    
+    var mySpace9 =  document.getElementById("v1")
+    mySpace9.innerHTML = "Not available"
+    
+    var myStartDate9 = document.getElementById("v3")
+    myStartDate9.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+    myNumber.innerHTML = obj.num--
+  }
+  
+  
+  function myCardFunction9() {
+    var myClient9 = document.getElementById("w2") 
+    myClient9.innerHTML = myFirstInput.value
+    
+    var mySpace9 =  document.getElementById("w1")
+    mySpace9.innerHTML = "Not available"
+    
+    var myStartDate9 = document.getElementById("w3")
+    myStartDate9.innerHTML = new Date()
+  
+    
+    var myNumber = document.getElementById("myNum")
+  
+  
+    myNumber.innerHTML = obj.num--
+  
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  let a = document.getElementById('card1')
+  let b = document.getElementById('card2')
+  let c = document.getElementById('card2')
+  let d = document.getElementById('card4')
+  let e = document.getElementById('card5')
+  let f = document.getElementById('card6')
+  let g = document.getElementById('card7')
+  let h = document.getElementById('card8')
+  let i = document.getElementById('card9')
+  let j = document.getElementById('card10')
